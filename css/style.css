@@ -1,0 +1,113 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/************Utilites Classes***********/
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    display: grid;
+    grid-template-columns: 200px 300px 1fr;
+
+    place-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+}
+h1{
+    color: #fff;
+}
+
+/************Header*************************/
+/* .nav-wrapper {
+    float: left;
+    width: 100%;
+    color: #fff;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo h1 {
+    float: left;
+    width: 10%;
+    padding: 10px 0px;
+}
+.menu-item-wrapper {
+    float: left;
+    width: 40%;
+}
+.our-info-wrapper {
+    float: left;
+    width: 50%;
+} */
+/* .menu-item-wrapper ul li {
+    display: inline-block;
+    padding: 10px 30px;
+} */
+
+
+
+
+/****************Responsive ****************/
+@media only screen and (max-width:1400px){
+    .container{
+        width: 100%;
+        margin: auto
+    }
+    
+
+}
+
+@media only screen and (max-width:1170px){
+    nav li {
+        padding: 10px 10px;
+    }
+    .nav-wrapper {
+        display: grid;
+        grid-template-columns: 130px 280px 1fr;
+        place-items: center;
+    }
+
+}
+
+/* 
+
+
+
+@media only screen and (max-width:1200px){   /*  // it means jb hmaaari screen 1200 ya 1200 se niche ho toh ye css apply ho jaaye ! okay */
+    /* .menu-item-wrapper ul li {
+        padding: 10px 15px;
+        color: aqua;    /*** This is just for example*******/
+    /* } */
+    
+    /* .menu-item-wrapper {
+        float: left;
+        width: 28%;
+    }
+    .container{
+        width: 100%;
+        margin: auto
+    }
+    .our-info-wrapper {
+        float: left;
+        width: 60%;
+    } */
+/* }   */
